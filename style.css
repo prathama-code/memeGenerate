@@ -1,0 +1,37 @@
+.meme-generator{
+    text-align: center;
+    padding: 10px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+}
+.meme-generator .meme-generator-btn{
+    height:55px;
+    /* width:20%; */
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 2px 20px;
+    background-color: #fff;
+    font-weight: 600;
+    color:red;
+    cursor: pointer;
+    transition: 400ms ease;
+}
+
+.meme-generator .meme-generator-btn:hover{
+    /* font-size: 28px; */
+    color:green;
+    padding:10px 36px;
+    letter-spacing: 10px;
+    border-color: blue;
+}
+.meme-generator .meme-title{
+    font-size: 25px;
+}
+.meme-generator img{
+    height : 430px;
+    object-fit: cover;
+}
+.meme-generator .meme-author{
+    margin: 0.5%;
+    color:rgb(120, 120, 184)
+}
